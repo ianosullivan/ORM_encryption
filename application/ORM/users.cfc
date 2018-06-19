@@ -1,6 +1,7 @@
-<!--- See  
-extends="_base" and
-encrypted="true" --->
+<!--- Important...
+ -> extends="_base"
+ -> encrypted="true" 
+--->
 
 <cfcomponent persistent="true" extends="_base">
 	<cfproperty name="id" fieldtype="id" generator="native">
